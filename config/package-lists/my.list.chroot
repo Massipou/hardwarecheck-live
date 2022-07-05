@@ -1,0 +1,7 @@
+lm-sensors
+git
+task-lxde-desktop firefox-esr
+apache2
+php php-common php-cli
+smartmontools
+lshw

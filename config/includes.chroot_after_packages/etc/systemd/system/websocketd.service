@@ -1,0 +1,17 @@
+[Unit]
+Description=Websocket for hardware inventory logs
+After=network-online.target
+ 
+[Service]
+Type=simple
+ 
+User=user
+Group=user
+UMask=007
+ 
+ExecStart=bash /hardwarecheck/websocketd/websocket.sh
+ 
+#Restart=on-failure
+  
+[Install]
+WantedBy=multi-user.target
