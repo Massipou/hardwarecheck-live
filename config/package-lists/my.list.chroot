@@ -5,3 +5,4 @@ apache2
 php php-common php-cli
 smartmontools
 lshw
+wifi-qr
