@@ -1,9 +1,10 @@
 path=$(pwd)
+sudo apt-get -y update &&  sudo apt-get -y install lxde-core
 sudo apt-get -y install i2c-tools
 sudo systemctl enable websocketd
 sudo systemctl enable apache2
 cd /
-git -c core.sshCommand="ssh -i /root/.ssh/id_ed25519" clone git@github.com:Massipou/HardwareChecker.git
+git -c core.sshCommand="ssh -i /root/.ssh/id_rsa" clone git@github.com:Massipou/HardwareChecker.git
 mv /HardwareChecker /hardwarecheck
 #sudo a2ensite 000-default.conf
 cd $path

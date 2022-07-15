@@ -1,9 +1,13 @@
 lm-sensors
 git
-task-lxde-desktop firefox-esr
+firefox-esr
 apache2
 php php-common php-cli
 smartmontools
 lshw
 network-manager 
-#wifi-qr
+rfkill
+bluez
+libasound2
+alsa-utils
+alsa-firmware-loaders
